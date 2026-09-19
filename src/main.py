@@ -1,5 +1,10 @@
-def sumar(a, b):
-    """Suma dos números."""
-    return a + b
+class Calculator:
+    """Calculadora básica."""
 
-# prueba de branch protection
+    def suma(self, a, b):
+        """Suma dos números."""
+        return a + b
+
+    def resta(self, a, b):
+        """Resta dos números."""
+        return a - b
